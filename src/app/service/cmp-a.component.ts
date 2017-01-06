@@ -42,6 +42,6 @@ export class CmpAComponent {
     }
 
     onSend(value: string) {
-        
+        this.dataService.pushData(value);
     }
 }
